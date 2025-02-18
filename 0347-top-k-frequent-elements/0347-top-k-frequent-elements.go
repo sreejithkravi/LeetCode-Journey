@@ -14,9 +14,7 @@ func topKFrequent(nums []int, k int) []int {
     for key,val:=range count{
         h.arr=append(h.arr,node{key,val})
     }
-    fmt.Println(h.arr)
     h.build(h.arr)
-    fmt.Println(h.arr)
     var topk[]int
     for k!=0{
         topk=append(topk,h.pop())
@@ -29,11 +27,10 @@ func topKFrequent(nums []int, k int) []int {
 }
 func (h *MaxHeap) pop() int {
 	max := h.arr[0].value
-	h.arr[0] = h.arr[len(h.arr)-1] // Move last element to root
-	h.arr = h.arr[:len(h.arr)-1]   // Remove last element
+	h.arr[0] = h.arr[len(h.arr)-1] 
+	h.arr = h.arr[:len(h.arr)-1]   
 	h.heapifyDown(0)
 
-    fmt.Println(max)
 	return max
 }
 func (h *MaxHeap) build(arr []node) {
