@@ -1,12 +1,14 @@
 func findEvenNumbers(digits []int) []int {
-    var n1,n2,n3,flag int
     var arr[]int
     for i:=100;i<1000;i++{
-        n1=i%10
-        n2=(i/10)%10
-        n3=i/100
-        flag=0
+
+        n1:=i%10
+        n2:=(i/10)%10
+        n3:=i/100
+        flag:=0
+
         for _,num:=range digits{
+
             if num==n1 && n1!=-1{
                 flag++
                 n1=-1
@@ -17,7 +19,9 @@ func findEvenNumbers(digits []int) []int {
                 flag++
                 n3=-1
             }
+
         }
+        
         if flag==3 && i%2==0{
             arr=append(arr,i)
         }
