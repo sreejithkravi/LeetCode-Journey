@@ -4,11 +4,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/0073-set-matrix-zeroes) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/2215-finding-3-digit-even-numbers) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/0073-set-matrix-zeroes) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/2215-finding-3-digit-even-numbers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Sorting
@@ -41,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/sreejithkravi/LeetCode-Journey/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
